@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Full</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <h1>Coders</h1>
+    <br>
+    <section id="formulario">
+      <div class="container">
+        
+
+      <label for="name">Please, enter your full name</label>
+      <input type="text" id="name" placeholder="Full Name" onipunt="onlyLetter(this)"/>
+      <br>
+
+      <label for="name">Please, enter your email</label>
+      <input type="email" id="email" placeholder="Emai" onipunt="onlyEmailChers(this)"/>
+      <br>
+
+      <label for="name">Please, enter your clan</label>
+      <input type="text" id="clan" placeholder="Clan" onipunt="onlyLetter(this)"/>
+      <br>
+
+      <button id="btnsave">Save</button>
+      </div>
+    </section>
+
+    <section id="table">
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Clan</th>
+            </tr>
+          </thead>
+          <tbody id="table-coders">
+
+          </tbody>
+        </table>
+
+      </div>
+
+    </section>
+    
+
+  </main>
+  <footer></footer>
+  
+  <script src="./src/Js/main.js" type="module"></script>
+</body>
+</html>
